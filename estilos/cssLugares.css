@@ -1,0 +1,204 @@
+@charset "utf-8";
+*::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(5, 5, 5, 0.7);
+  border-radius: 7px;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: rgba(5, 5, 5, 0.5);;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(5, 5, 5, 0.5);
+}
+/*------------------Encabezado---------------------*/
+.encabezado {
+ width: auto;
+	height: 80px;
+	background-color: #213D62;
+    padding-top: 10px;
+}
+
+.menuizq{
+	background-color:#213D62;
+	width: 105px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.menuizq:hover{
+	background-color: #335F98;
+}
+
+
+.LeSuite26{
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+	color: White;
+	width: 240px;
+	height: 70px;
+	float: left;
+  
+	margin-left: 40px;
+	
+}
+.LeSuite26:hover{
+	
+	background-color: #24436C;
+	
+	
+}
+.menudrcho{
+	background-color:#213D62;
+	width: 105px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.menudrcho:hover{
+	background-color: #335F98;
+}
+
+
+/*---------------TIPOS DE LETRA-------------------------*/
+
+p{   font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	color: white;}
+	
+
+	h4{
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+
+h2{ font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-size: 30px}
+
+
+
+
+
+/*-------------PERU------------------*/
+
+.peru{
+	width:  450px;
+	height: 300px;
+	float: left;
+	margin-bottom: 20px;
+	background-image: url(../imagenes/img%20locales/m2.jpg)
+}
+
+.peru:hover{
+      background-image: url(../imagenes/img%20locales/m1.jpg)
+}
+
+/*-----------------USA----------------*/
+
+.usa{
+	width:  450px;
+	height: 300px;	
+	float: right;
+	margin-bottom: 20px;
+	background-image: url(../imagenes/img%20locales/e2.jpg)
+}
+.usa:hover{
+      background-image: url(../imagenes/img%20locales/e1.jpg)
+}
+/*------------------CUERPO-----------------------------*/
+.cuerpo{
+	width:940px;
+	height: auto;
+}
+
+.dosbloques{
+	width: 940px;
+	height: auto;
+}
+
+.lugar1{
+	width: 450px;
+	height: 50px;
+	float: left;
+	background-color:  #335F98;
+	margin-top: 30px;
+	
+}
+.lugar2{
+	width: 450px;
+	height: 50px;
+	float: right;
+		margin-top: 30px;
+	background-color:   #335F98;
+}
+
+.lugar3{	
+	width: 940px;
+	height: 50px;
+	float: right;
+
+	background-color:   #335F98;
+}
+
+#centrado{width: 940px; margin: 0 auto;
+	
+}
+
+body {
+
+ background-image: url(../imagenes/fondos/logo0.jpg)
+	
+}
+
+
+
+/*------------------pie-----------------*/
+
+
+.boton2{
+	font-family:  'Josefin Sans', sans-serif;
+	font-size: 16px;
+	background-color: #E7E7E7;
+	width: 150px;
+	height: 21px;
+    margin-right: 250px;
+	border-radius: 10px;
+	border-width:thin;
+	
+   border-color: gray;
+	float: right;
+
+}
+.boton2:hover{
+	padding-bottom: 5px;
+	padding-left: 5px;
+	
+	
+}
+
+.piemedio{width: 940px; margin: 0 auto; }
+
+.piedepagina2{
+	
+	background-color:#4E81C3;
+	width: auto;
+	height: 140px;
+
+
+	
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-size: 20px;
+
+	float: left;
+	
+}

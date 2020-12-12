@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*---------------TIPOS DE LETRA-------------------------*/
+
+p{   font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	color: white;}
+	
+
+h4{
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+
+h2{  font-family: 'Comfortaa', cursive;
+	color: white;
+	font-size: 20px}
+
+h3{font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-size: 20px;}
+
+p10{
+	 font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	color: white;
+	
+	
+}
+
+
+
+/*------------------pie-----------------*/
+
+
+.boton2{
+	font-family:  'Josefin Sans', sans-serif;
+	font-size: 16px;
+	background-color: #E7E7E7;
+	width: 150px;
+	height: 21px;
+    margin-right: 250px;
+	border-radius: 10px;
+	border-width:thin;
+	
+   border-color: gray;
+	float: right;
+
+}
+.boton2:hover{
+	padding-bottom: 5px;
+	padding-left: 5px;
+	
+	
+}
+
+#caja4{
+	
+	margin-left: 220px;
+	width: 200px;
+	border-radius:5px;
+	
+}
+.piemedio{width: 940px; margin: 0 auto; }
+
+.piedepagina2{
+	
+	background-color:#4E81C3;
+	width: auto;
+	height: 140px;
+
+
+	
+	
+
+	float: left;
+	
+}
+
+
+
+
+
+#centrado{width: 940px; margin: 0 auto}
+
+body {
+
+ background-image: url(../imagenes/fondos/logo0.jpg)
+	
+}
+
+
+
+
+
+
+.menu{ width: 940px;
+	height: 70px;
+	background-color: #335F98;	
+
+}
+
+
+
+
+.menu:hover{ 
+	background-color:#457AC0;
+
+}
+
+
+
+.wrapper{ height:auto; width:100%;}
+
+.bloques{
+	width: auto;
+	height: auto;
+	
+
+} 
+
+.bloque1{
+	
+	width: 300px;
+	height: 250px;
+	background-color: black;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 30px;
+    
+}
+
+
+.bloque1:hover{
+	background-color: #457AC0;
+}
+
+.Sheraton{
+	width: 300px;
+	height: 280px;
+	float: left; 
+	filter:alpha(opacity=50); opacity:0.5;
+}
+.Sheraton:hover{
+	filter:alpha(opacity=50); opacity:1;
+}
+.fixed{position:fixed; top:0}
+
+

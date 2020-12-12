@@ -1,0 +1,6 @@
+<div class="menuizq"><p align="center">HOTELES</p></div>
+		<div class="menuizq"><p align="center">SEGUROS</p></div>
+		<div align="center">
+		<div class="LeSuite26"><p align="center"></p></div></div>
+		<div class="menudrcho"><p align="center">CARROS</p></div>
+		<div class="menudrcho"><p align="center">LUGARES</p></div>

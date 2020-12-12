@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+
+
+
+/*---------------TIPOS DE LETRA-------------------------*/
+
+p{   font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	color: white;}
+	
+
+h4{
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
+
+h2{  font-family: 'Comfortaa', cursive;
+	color: white;
+	font-size: 20px}
+
+h3{font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-size: 20px;}
+
+p10{
+	 font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	color: white;
+	
+	
+}
+
+
+
+/*------------------pie-----------------*/
+
+
+.boton2{
+	font-family:  'Josefin Sans', sans-serif;
+	font-size: 16px;
+	background-color: #E7E7E7;
+	width: 150px;
+	height: 21px;
+    margin-right: 250px;
+	border-radius: 10px;
+	border-width:thin;
+	
+   border-color: gray;
+	float: right;
+
+}
+.boton2:hover{
+	padding-bottom: 5px;
+	padding-left: 5px;
+	
+	
+}
+
+#caja4{
+	
+	margin-left: 220px;
+	width: 200px;
+	border-radius:5px;
+	
+}
+.piemedio{width: 940px; margin: 0 auto; }
+
+.piedepagina2{
+	
+	background-color:#4E81C3;
+	width: auto;
+	height: 140px;
+
+
+	
+	
+
+	float: left;
+	
+}
+
+
+
+
+
+#centrado{width: 940px; margin: 0 auto}
+
+body {
+
+ background-image: url(../imagenes/fondos/logo0.jpg)
+	
+}
+
+
+
+
+
+
+.menu{ width: 940px;
+	height: 70px;
+	background-color: #335F98;	
+
+}
+
+
+
+
+.menu:hover{ 
+	background-color:#457AC0;
+
+}
+
+
+
+.wrapper{ height:auto; width:100%;}
+
+.bloques{
+	width: auto;
+	height: auto;
+	
+
+} 
+
+.bloque1{
+	
+	width: 300px;
+	height: 500px;
+	background-color: #363636;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 30px;
+    
+}
+
+.bloque2{
+	
+	width: auto;
+	height: 250px;
+	margin-top: 15px;
+
+	
+}
+.texto1{
+	
+	width: 250px;
+	height: auto;
+	
+}
+.b1{
+	height: 20px;
+   
+}
+
+
+
+.fixed{position:fixed; top:0}
+
+

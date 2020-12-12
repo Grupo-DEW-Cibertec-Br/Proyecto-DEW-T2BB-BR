@@ -1,0 +1,109 @@
+
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Peru</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+posicionarMenu();
+
+$(window).scroll(function() {    
+    posicionarMenu();
+});
+
+function posicionarMenu() {
+    var altura_del_header = $('.header').outerHeight(true);
+    var altura_del_menu = $('.menu').outerHeight(true);
+
+    if ($(window).scrollTop() >= altura_del_header){
+        $('.menu').addClass('fixed');
+        $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+    } else {
+        $('.menu').removeClass('fixed');
+        $('.wrapper').css('margin-top', '0');
+    }
+}
+
+</script>
+
+</head>
+<link href="../estilos/cssPeru/cssLPeru.css" rel="stylesheet">
+<link href="../estilos/cssPeru/cssVentana.css" rel="stylesheet">
+<link href="../estilos/cssPeru/Ventana1.css" rel="stylesheet">
+<link href="../estilos/cssPeru/Ventana2.css" rel="stylesheet">
+
+<div id="centrado">
+<body>
+
+	<div align="center">
+    <a href="Locales.html" style="text-decoration:none"><div class="menu">
+       	<br><p10>REGRESAR</p10>
+	</div></a>
+    <br>
+	<div class="wrapper"><img src="../imagenes/img locales/Peru-Banner.jpg" width="940" height="200" style="float: right">
+		<div class="bloques">
+			<div class="bloque1" >
+				<a href="#popup" class="popup-link"  style="text-decoration:none"  ><div class="bloque2"><p>Lima</p>
+				<div class="Sheraton">
+					<img src="../imagenes/img locales/Lima.jpg" height="180" width="280">
+				</div>
+			</div></a>
+		</div>
+		<div class="bloque1">
+			<a href="#popup1" class="popup-link1"  style="text-decoration:none" ><div class="bloque2"><p>Tacna</p>
+			<div class="Sheraton">
+				<img src="../imagenes/img locales/Tacna.jpg" height="180" width="280">
+			</div>
+            </div></a>
+		</div>		
+               <div class="bloque1">
+               	<a href="#popup2" class="popup-link2"  style="text-decoration:none"  ><div class="bloque2"><p>Piura</p>
+				<div class="Sheraton">
+                   	<img src="../imagenes/img locales/Piura.jpg" height="180" width="280">
+                   </div>
+				</div></a>
+				</div>
+			</div>
+		</div>
+
+
+
+<div class="piedepagina2">
+<div align="center">
+	<div class="piemedio">
+		<h3>Ofertas exclusivas en tu email</h3>
+	<div  class="txtbuscar1"><button class="boton2">Quiero recibirlas</button><input type="text" id="caja4"></div>
+	</div>
+	</div>
+</div>
+</div>
+</body>
+	</div>
+</html>
+
+	<div class="modal-wrapper" id="popup">
+    <div class="popup-contenedor">
+		<h4>Lima</h4>
+		<iframe width="560" height="315" src="../imagenes/img locales/cevicheria 1.jpg" frameborder="0" allowfullscreen></iframe>
+		<a class="popup-cerrar"  href="#" >X</a>
+    </div>
+</div>
+    <div class="modal-wrapper1" id="popup1" >
+    <div class="popup-contenedor1">
+       <h4>Tacna</h4>
+    <iframe width="560" height="315" src="../imagenes/img locales/cevicheria2.jpg" frameborder="0" allowfullscreen></iframe>
+        <a class="popup-cerrar1" href="#" >X</a>
+    </div>
+</div> 
+   
+    <div class="modal-wrapper2" id="popup2">
+    <div class="popup-contenedor2">
+       <h4>Piura</h4>
+<iframe width="560" height="315" src="../imagenes/img locales/cevicheria3.jpg" frameborder="0" allowfullscreen></iframe>
+        <a class="popup-cerrar2" href="#" >X</a>
+    </div>
+</div>
+
